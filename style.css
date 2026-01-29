@@ -24,8 +24,13 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+    /* background: var(--bg-color);
+    color: var(--text-color); */
     color: var(--text-color);
+    background: 
+        linear-gradient(rgba(2, 19, 31, 0.55), rgba(2, 19, 31, 0.55)),
+        url('images/Background.png') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .header {
@@ -315,7 +320,7 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background: var(--second-bg-color);
+    /* background: var(--second-bg-color); */
     padding-bottom: 6rem;
 }
 
@@ -481,7 +486,7 @@ span {
 .skills {
     min-height: auto;
     padding-bottom: 7rem;
-    background: var(--second-bg-color);
+    /* background: var(--second-bg-color); */
 }
 
 .skills h2 {
@@ -687,7 +692,8 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    /* background: var(--second-bg-color); */
+    
 }
 
 .footer-text,
@@ -1005,4 +1011,7 @@ section:nth-child(odd) .animate.scroll,
 .c1
 {
     background-image: url("https://media.istockphoto.com/id/1939454438/photo/digital-search-icon-on-future-tech-background-search-engine-evolution-futuristic-search-icon.webp?a=1&b=1&s=612x612&w=0&k=20&c=uLVNqX3GWqV5RpjtIW0fcw1h0A9qp1oAjQ7ohG5s_Bw=");
+}
+section {
+    background: transparent;
 }
